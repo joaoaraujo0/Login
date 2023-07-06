@@ -7,3 +7,23 @@ body
 .custom-rounded {
     border-radius: 50px;
 }
+
+.form-check
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.endForm
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: end;
+}
+
+.senha
+{
+    max-width: 50px;
+}

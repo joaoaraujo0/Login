@@ -25,29 +25,62 @@
 
         <div class="row vh-100 align-items-center justify-content-center">
 
-            <div class="col-sm-10 col-md-8 col-lg-6 bg-white rounded p-4 shadow custom-rounded">
+            <div class="col-sm-10 col-md-8 col-lg-4 bg-white rounded p-4 shadow custom-rounded">
 
-                <div class="row justify-content-center mb-4">
+                <div class="row justify-content-center mb-9">
                     <img src="./assets/imagens/logotipo.png" class="w-50"/> 
                 </div>
 
                 <form>
-                    <div class="mb-4">
+                    <div class="mb-1">
                         <label for="usuario" class="labelCampo form-label">Usuário</label>
+                    </div>
+
+                    <div class="input-group mb-3">
+
+                        <div class="input-group-prepend">
+
+                            <span class="iconContainer input-group-text" id="basic-addon1">
+                                <img src="./assets/icons/login-perfil.png" class="img-responsive iconCampo" alt="Responsive image">
+                            </span>
+                            
+                        </div>
                         <input type="text" class="inputCampo form-control">
                     </div>
 
-                    <div class="mb-4">
+                    
+                    <div class="mb-1">
                         <label for="senha" class="labelCampo form-label">Senha</label>
-                        <input type="password" class="inputCampo form-control">
                     </div>
 
-                    <div class="mb-4 form-check">
-                        <input type="checkbox" class="form-check-input">
-                        <label class="labelCampo" for="lembrar senha">Lembrar senha</label>
+                    <div class="input-group mb-5">
+
+                        <div class="input-group-prepend">
+
+                            <span class="iconContainer input-group-text" id="basic-addon1">
+                                <img src="./assets/icons/login-trancar.png" class="img-responsive iconCampo" alt="Responsive image">
+                            </span>
+                            
+                        </div>
+                        <input type="text" class="inputCampo form-control">
                     </div>
+
+                    <div class="endForm mb-5">
+                        <div class="checkbox">
+                          <!-- Checkbox -->
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />                                
+                            <label class="labelCampo form-check-label" for="loginCheck">Se lembre de mim</label>
+                          </div>
+                        </div>
+                        <div>
+                          <!-- Simple link -->
+                          <a class="labelCampo senha" href="#">Esqueceu sua senha? <br> Clique aqui</a>
+                        </div>
+                      </div>
+                      
                     
-                    <button type="submit" class="btnPrincipal w-100 btn btn-success">Logar</button>
+                    <button type="submit" class="btnPrincipal w-100 btn btn-success">Entrar</button>
                 </form>
 
             </div>

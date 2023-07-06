@@ -1,11 +1,32 @@
 .inputCampo{
-    border: 1px solid var(--pretoSecundario);
-    border-radius: 10px;
-    height: 40px;
+    border-top: 1px solid var(--pretoSecundario);
+    border-right: 1px solid var(--pretoSecundario);
+    border-bottom: 1px solid var(--pretoSecundario);
+    border-left: none;
+    border-radius: 5px 5px 5px 5px;
+    height: 50px;
+    opacity: 80%;
 }
 
 .labelCampo
 {
     font-weight: 300;
     color: var(--pretoSecundario);
+}
+
+.iconCampo{
+    opacity: 50%;
+    height: 25px;
+}
+
+.iconContainer
+{
+    border-top: 1px solid var(--pretoSecundario);
+    border-left: 1px solid var(--pretoSecundario);
+    border-bottom: 1px solid var(--pretoSecundario);
+    border-right: none;
+    background-color: transparent;
+    border-radius: 5px 0 0 5px;
+    height: 50px;
+    opacity: 80%;
 }
