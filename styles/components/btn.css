@@ -1,0 +1,11 @@
+.btnPrincipal{
+    border: 1px solid var(--laranjaPrincipal);
+    background-color: var(--laranjaPrincipal);
+    border-radius: 10px;
+}
+
+.btnPrincipal:hover{
+    background-color: var(--marromPrincipal);
+    border: 1px solid var(--marromPrincipal);
+    transition: all .3s ease-in;
+}

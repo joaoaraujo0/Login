@@ -1,27 +1,9 @@
-body {
-    background-color: #F4941C;
+body 
+{
+    background-color: var(--laranjaPrincipal);
+    font-family: 'Roboto', sans-serif;
 }
 
-.quadrado{
-    border-radius: 15px;
-}
 .custom-rounded {
-        border-radius: 50px;
-    }
-
-.inputUsuario{
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-.inputSenha{
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-.botaoLogar{
-    border: 1px solid #F4941C;
-    background-color: #F4941C;
-    border-radius: 10px;
-
+    border-radius: 50px;
 }

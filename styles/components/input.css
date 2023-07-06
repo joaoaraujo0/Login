@@ -1,0 +1,11 @@
+.inputCampo{
+    border: 1px solid var(--pretoSecundario);
+    border-radius: 10px;
+    height: 40px;
+}
+
+.labelCampo
+{
+    font-weight: 300;
+    color: var(--pretoSecundario);
+}
